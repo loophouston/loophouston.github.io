@@ -645,8 +645,8 @@ body {
   height: 100vh; }
   /* line 13, /Users/Hesam/Dropbox/Dev/loophouston/source/assets/stylesheets/_global.scss */
   .outer .container {
-    padding-right: 10vh;
-    padding-left: 10vh; }
+    padding-right: 5vh;
+    padding-left: 5vh; }
     /* line 17, /Users/Hesam/Dropbox/Dev/loophouston/source/assets/stylesheets/_global.scss */
     .outer .container h1 {
       font-weight: 700; }
