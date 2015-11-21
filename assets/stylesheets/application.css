@@ -643,10 +643,14 @@ body {
       -ms-flex-pack: center;
           justify-content: center;
   height: 100vh; }
-  /* line 15, /Users/Hesam/Dropbox/Dev/loophouston/source/assets/stylesheets/_global.scss */
-  .outer .container h1 {
-    font-weight: 700; }
-  /* line 18, /Users/Hesam/Dropbox/Dev/loophouston/source/assets/stylesheets/_global.scss */
-  .outer .container h2 {
-    font-weight: 400;
-    font-size: 1.1em; }
+  /* line 13, /Users/Hesam/Dropbox/Dev/loophouston/source/assets/stylesheets/_global.scss */
+  .outer .container {
+    padding-right: 10vh;
+    padding-left: 10vh; }
+    /* line 17, /Users/Hesam/Dropbox/Dev/loophouston/source/assets/stylesheets/_global.scss */
+    .outer .container h1 {
+      font-weight: 700; }
+    /* line 20, /Users/Hesam/Dropbox/Dev/loophouston/source/assets/stylesheets/_global.scss */
+    .outer .container h2 {
+      font-weight: 400;
+      font-size: 1.1em; }
