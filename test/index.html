@@ -1,0 +1,31 @@
+<script src="http://w.soundcloud.com/player/api.js"></script> <iframe id=sc-widget src="http://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/245910797%3Fsecret_token%3Ds-hdUeO" scrolling=no frameborder=no></iframe> <script>
+  (function(){
+
+
+    var widgetIframe = document.getElementById('sc-widget'),
+        widget       = SC.Widget(widgetIframe);
+
+    widget.bind(SC.Widget.Events.READY, function() {
+            // get the value of the current position
+                var forEach = Array.prototype.forEach;
+         var actionButtons = document.querySelectorAll('.button');
+      forEach.call(actionButtons, function(button) {
+        addEvent(button, 'click', function(e) {
+          if (e.target !== this) {
+            e.stopPropagation();
+            return false;
+          }
+          /*var input = this.querySelector('input');
+          var value = input && input.value;*/
+          var value = 55000;
+          widget.seekTo(value);
+        });
+      });
+    });
+
+      }
+
+
+
+  }());
+</script> <button href="#" class=button>test</button>
